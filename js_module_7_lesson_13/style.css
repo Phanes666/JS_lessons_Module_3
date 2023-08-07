@@ -1,0 +1,45 @@
+/* .box {
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-black {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
+.item-green {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.item-red {
+  background-color: red;
+}  */
+
+ ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    user-select: none;
+    list-style: none;
+  }
+  
+  .item {
+    width: 300px;
+    border: 1px solid black;
+  }
+  
+  
+  .modal{
+      background-color: white;
+  }
+  
